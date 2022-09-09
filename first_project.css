@@ -1,0 +1,80 @@
+h1{
+    text-shadow: -12px -13px 15px gold;
+    /* height: px; */
+    font-family: "Silkscreen";
+    margin-left: 45%;
+    animation: ry 2s infinite ;
+    animation-direction: alternate-reverse;
+}
+@keyframes ry {
+    to {color: rgb(21, 212, 14);
+    font-size: 50px;
+    /* font-family: segoe script; */
+}
+    
+}
+.first {
+    background-color: darkslategrey;
+    color: aquamarine;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+}
+.fin{
+    width: 600px;
+
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    text-align: justify;
+    font-size: 1em;
+    text-align-last: right;
+    
+}
+fin::first-line{
+    font-variant: small-caps;
+    text-transform: capitalize;
+    
+}
+img{
+    width: 300px;
+    height: 330px;
+}
+.fg{
+    text-align: justify;
+    width:130px ;
+    overflow: scroll;
+    height: 280px;
+}
+
+
+body{
+    background-color: #01786F;
+}
+.ki th{
+    font-size: x-large;
+    float: left;
+    background-color: brown;
+    padding: 19px;
+}
+.ki th:hover{
+    color: antiquewhite;
+    background-color: rgb(46, 48, 43);
+}
+.er{
+    width: 755px;
+    height: 769px
+}
+.er:hover{
+    width: 800px;
+    height: 800px
+}
+footer{
+    background-color: black;
+}
+ul li{
+    list-style: none;
+    text-align: center;
+    text-decoration: dashed;
+    font-size: 26px;
+    text-decoration: none;
+    color: cyan;
+}
